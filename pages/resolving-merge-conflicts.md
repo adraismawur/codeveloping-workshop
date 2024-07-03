@@ -45,7 +45,8 @@ This should start the merge conflict.
 The idea behind resolving merge conflicts is that there is an incoming change (from the person that finished first), and a current change (from the person who finished second).
 You need to decide what to keep or remove in order to achieve a desired result.
 
-This is what a conflict typically looks like:
+This is what a conflict typically looks like.
+GIT has added the `>`, `<` and `=` characters. Everything in-between is done by humans:
 
 ```
 introduction.md
@@ -66,8 +67,7 @@ working-with-pull-requests.md
 =======
 ```
 
-Which is the change that the person that finished second introduced.
-It is the _current_ change because it is _currently present_ on that person's machine.
+This is the _current_ change because it is _currently present_ on that person's machine.
 As opposed to the _incoming change_:
 
 ```
@@ -77,6 +77,7 @@ working-with-issues.md
 ```
 
 This is the change that the person who finished first introduced and is now incoming from the repository on GitHub.
+You can even see the commit it is coming from (starting with f424d).
 
 ### Solving a merge conflict
 
