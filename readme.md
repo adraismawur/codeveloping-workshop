@@ -19,7 +19,7 @@ All of these exercises assume the following:
 - You have python installed
 
 ### Forking this repository
-Only one of the people in your team needs to fork this repository.
+❗Only one of the people in your team needs to fork this repository.
 
 In order to do this, follow these steps:
 
@@ -34,6 +34,8 @@ We will get back to those buttons later.
 
 ### Giving your team member(s) access
 
+❗The person who forked the repository should do this.
+
 1. Click on the "Settings" tab at the top of the page, next to the cog icon.
 2. Go to "Collaborators"
 3. Under Manage access, click "Add People"
@@ -44,6 +46,8 @@ Once your team member accepts the invite, they will be allowed to push to your r
 ### Getting the code to your machine
 
 In order to get the code on your machine, you must clone this fork of the workshop repository.
+
+❗Every member of the team should clone the fork.
 
 For this you will need the repository URL.
 This URL can be found on the main page of your fork, under the green "<> Code" button.
