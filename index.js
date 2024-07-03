@@ -1,6 +1,8 @@
 const pageList = document.getElementById('page-list');
 const content = document.getElementById('content');
 
+// function to get url parameters
+// these are the parameters after the ? in the url
 function get_url_params() {
     var url = window.location.href;
     var params = {};
@@ -16,10 +18,12 @@ function get_url_params() {
 }
 const params = get_url_params();
 
+// if no page is specified, redirect to introduction
 if (!params['page']) {
   window.location.href = 'index.html?page=introduction.md';
 }
 
+// function to get the list of pages and render the navigation menu on the left
 function get_pages_and_render_nav() {
   let p = new Promise((resolve, reject) => {
     var x = new XMLHttpRequest();
@@ -30,6 +34,7 @@ function get_pages_and_render_nav() {
         let html_parts = [];
         html_parts.push('<ul class="page-list">');
         for (var page of x.responseText.split('\n')) {
+          // ignore empty lines
           if (page.trim() == '') {
             continue;
           }
@@ -49,7 +54,7 @@ function get_pages_and_render_nav() {
   return p;
 }
 
-
+// function to render the page content
 function render_page(page) {
   let p = new Promise((resolve, reject) => {
     var x = new XMLHttpRequest();
@@ -68,7 +73,7 @@ function render_page(page) {
 }
 
 
-
+// load the page and the navigation menu
 let promises = [];
 promises.push(get_pages_and_render_nav());
 promises.push(render_page(params['page']));

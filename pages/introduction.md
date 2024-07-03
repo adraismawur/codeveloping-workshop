@@ -19,6 +19,7 @@ This website displays markdown files (simple text files that look nice) and disp
 
 In order to do this, it reads a special text file at `pages/listing.txt`.
 Each line in this file corresponds to a markdown file under `pages/`.
+Lines starting with # are ignored as comments.
 
 In these exercises, the files under this `pages/` directory are all that you will need to edit.
 
