@@ -77,7 +77,6 @@ working-with-issues.md
 ```
 
 This is the change that the person who finished first introduced and is now incoming from the repository on GitHub.
-You can even see the commit it is coming from (starting with f424d).
 
 ### Solving a merge conflict
 
