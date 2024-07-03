@@ -6,6 +6,17 @@ But if a change has been made on the same line in a file, GIT can usually not fi
 
 In order to demonstrate this, we will introduce merge conflicts between your branches.
 
+## Practical exercise
+
+To prepare, please run the following command in the directory of the workshop repostory:
+
+`git config --local pull.rebase false`
+
+This is needed to avoid a warning later on.
+
+We will add two items to the page listing of our website.
+These pages already exist, and just need to be added to the `pages/listing.txt` file.
+
 Decide who is person 1 and who is person 2, then do the following:
 
 ### Person 1 tasks
@@ -29,6 +40,52 @@ That person now needs to first pull the changes to their computer using `git pul
 
 This should start the merge conflict.
 
+### Structure of a merge conflict
+
 The idea behind resolving merge conflicts is that there is an incoming change (from the person that finished first), and a current change (from the person who finished second).
 You need to decide what to keep or remove in order to achieve a desired result.
+
+This is what a conflict typically looks like:
+
+```
+introduction.md
+resolving-merge-conflicts.md
+<<<<<<< HEAD
+working-with-pull-requests.md
+=======
+working-with-issues.md
+>>>>>>> f424d28c9d1666a84601bc23e97c5e8496543d63
+
+```
+
+Here we can se that there is a _current change_:
+
+```
+<<<<<<< HEAD
+working-with-pull-requests.md
+=======
+```
+
+Which is the change that the person that finished second introduced.
+It is the _current_ change because it is _currently present_ on that person's machine.
+As opposed to the _incoming change_:
+
+```
+=======
+working-with-issues.md
+>>>>>>> f424d28c9d1666a84601bc23e97c5e8496543d63
+```
+
+This is the change that the person who finished first introduced and is now incoming from the repository on GitHub.
+
+### Solving a merge conflict
+
+Work together to solve this merge conflict:
+1. Edit the file to resolve the conflict, preserving both changes to the file.
+    - When you are done editing the file, there should be no more `>`, `<` or `=` characters remaning in the `pages/listing.txt` file.
+2. Once you are done, you can run `git commit` to finish this merge.
+3. Then you should be able to again push using `git push`.
+4. Verify that the work as you expect it is on your GitHub repository fork.
+
+Once you are done, go to `working-with-issues.md`
 
