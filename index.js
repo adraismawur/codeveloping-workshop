@@ -33,6 +33,10 @@ function get_pages_and_render_nav() {
           if (page.trim() == '') {
             continue;
           }
+          // ignore comments
+          if (page.trimStart().startsWith('#')) {
+            continue;
+          }
           html_parts.push(`<li><a href='index.html?page=${encodeURIComponent(page)}'>${page}</a></li>`);
         }
         html_parts.push('</ul>');
