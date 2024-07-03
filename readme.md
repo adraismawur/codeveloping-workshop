@@ -2,20 +2,55 @@
 
 This is the repository for the codeveloping workshop example.
 
-In this workshop, you will go through a couple of excercises that involve common ways of working togheter on a software project.
+In this workshop, you will go through a couple of excercises that involve common ways of working together on a software project.
 
-All of these exercises assume you have paired up with another person.
+This workshop also shows you how to contribute to someone else's repository on GitHub using your own fork and pull requests.
 
-## The website
+Please read through this readme in its entirety to get started.
 
-This repository contains an example website we'll be working on.
-All the content of this website is in the html/js/css files here, and in the markdown files under /pages
 
-Unfortunately, directly opening the index.html does not work.
-So in order to run a small webserver on your machine, please open a terminal and navigate to where you put the workshop code, and run the following command:
+## Getting started
 
-```bash
-python -m http.server
-```
+All of these exercises assume the following:
+- You have paired up with another person.
+- You have GIT installed
+- You are familiar with GIT in terms of committing, pushing and pulling
+- You are familiar with the command line
+- You have python installed
 
-You should not need to install anything for this to work.
+### Forking this repository
+Only one of the people in your team needs to fork this repository.
+
+In order to do this, follow these steps:
+
+1. Click the fork button at the top-right of this website, between the "watch" and "star" buttons.
+2. Uncheck "Copy the `master` branch only"
+3. Click "Create Fork"
+
+Once completed, you will be taken to your fork of the workshop repository.
+
+This largely looks the exact same as the original repository, with the exception that you now have a panel above the files in the repository where you can "contribute" and "sync fork".
+We will get back to those buttons later.
+
+### Giving your team member(s) access
+
+1. Click on the "Settings" tab at the top of the page, next to the cog icon.
+2. Go to "Collaborators"
+3. Under Manage access, click "Add People"
+4. Find your team member and click "Add [name] to this repository"
+
+Once your team member accepts the invite, they will be allowed to push to your repository.
+
+### Getting the code to your machine
+
+In order to get the code on your machine, you must clone this fork of the workshop repository.
+
+For this you will need the repository URL.
+This URL can be found on the main page of your fork, under the green "<> Code" button.
+
+Copy the URL found under the SSH tab.
+The URL should start with `git@github.com`
+
+Then, in a command line, navigate to where you want to copy the repository to, and run `git clone [url]`
+
+Once you have a copy of the code on your machine, take a look at the `introduction.md` file under the `pages` folder.
