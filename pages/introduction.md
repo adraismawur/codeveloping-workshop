@@ -32,8 +32,6 @@ Lines starting with # are ignored as comments.
 
 In these exercises, the files under this `pages/` directory are all that you will need to edit.
 
-If you really feel like it and are familiar with web development, you can edit the `index.js` or `index.html` later on.
-
 The first exercise will be `resolving-merge-conflicts.md`.
 Go there by clicking the navigation item on the left.
 More exercises will appear as you do stuff.
