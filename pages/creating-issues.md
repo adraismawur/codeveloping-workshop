@@ -3,8 +3,7 @@
 Issues can be used to track work items, request features, report bugs, and whatever else that involves work on a repository on platforms like GitHub or GitLab.
 Issues are an integral part of developing in an open source repository, and you can expect to receive new issues on software projects you work on using these platforms.
 
-In this exercise, you are going to create a couple of issues as practice, and are going to close those issues using linked pull requests.
-You will also use the projects feature of GitHub to track the progress of your work and that of your teammate.
+In this exercise, you are going to create a couple of issues as practice.
 
 ## Exercise
 
@@ -23,19 +22,22 @@ For maintainers and contributors of a repository, it can be difficult to underst
 For this reason it is important to describe your issue well.
 
 The first thing is the title of the issue.
-Ideally this immediately makes it clear what the core of the issue is.
+Ideally this makes it immediately clear what the core of the issue is.
 But it does not need to describe the entire problem.
 
 
 There are two issues that can be created to proceed in this workshop.
 
 ❗Decide which of you handles "issue 1" and who handles "issue 2".
+Only open your own issue.
+
+<hr>
 
 <details>
-<summary>Issue 1</summary>
+<summary>Click here for a description of Issue 1</summary>
 
 The first issue is that you added a contributing-to-a-repository page to the listing, but it's blank.
-This is because there is a typo in the filename for this.
+This is because the filename is missing its .md extension.
 
 From the perspective of the user, all they know is that there is a page that looks like it has no content, so some ways to phrase this may be:
 
@@ -46,8 +48,10 @@ From the perspective of the user, all they know is that there is a page that loo
 
 </details>
 
+<hr>
+
 <details>
-<summary>Issue 2</summary>
+<summary>Click here for a description of Issue 2</summary>
 
 This second issue is that there ought to be a page on creating pull requests, but it's missing from the listing.
 
@@ -61,8 +65,10 @@ Some ways they may phrase this are:
 
 </details>
 
+<hr>
+
 Obviously some of these are phrased better than others.
-Public repositories are also on the internet, which can be a hostile place, and some of these are worded just annoying enough to risk riling up the people responsible for a repository.
+For this exercise, prefix your title with "Issue 1" or "Issue 2" so that your teammate can easily find it.
 
 Beyond the title, the content of the issue is also extremely important.
 Both of the issues described above can be regarded as bugs, as they imply something is missing that should be there.
@@ -80,12 +86,12 @@ Create an issue on the github repository for the issue assigned to you, describi
 
 #### Working on the issues
 
-Once you have created your issues, open your teammate's issue.
+Once you have created your issues, open your teammate's issue **on GitHub**.
 See if you can understand the problem by looking at their description.
 
 When you feel like you understand the problem, create a new branch on your machine where you solve the problem using `git branch hotfix/issue-1` or `git branch hotfix/issue-2`.
 
-Make a commit on this branch fixing the problem, and then push this branch using `git push -u origin hotfix/issue-1`
+Make a commit on this branch fixing the problem, and then push this branch using `git push -u origin hotfix/issue-1` or `git push -u origin hotfix/issue-2`
 
 ##### Stuck?
 If you get stuck, remember that all you have to work in these exercises is the /pages folder in your repository.
