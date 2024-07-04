@@ -21,7 +21,7 @@ Decide who is person 1 and who is person 2, then do the following:
 
 ### Person 1 tasks
 1. Open `pages/listing.txt`
-2. Replace  `# change this` with `issues-and-pull-requests.md`
+2. Replace  `# change this` with `creating-issues.md`
 3. Commit your work
 4. Push your commit
 
@@ -54,7 +54,7 @@ resolving-merge-conflicts.md
 <<<<<<< HEAD
 contributing-to-a-repository.md
 =======
-issues-and-pull-requests.md
+creating-issues.md
 >>>>>>> f424d28c9d1666a84601bc23e97c5e8496543d63
 
 ```
@@ -72,7 +72,7 @@ As opposed to the _incoming change_:
 
 ```
 =======
-issues-and-pull-requests.md
+creating-issues.md
 >>>>>>> f424d28c9d1666a84601bc23e97c5e8496543d63
 ```
 
@@ -89,5 +89,5 @@ Work together to solve this merge conflict:
 3. Then you should be able to again push using `git push`.
 4. Verify that the work as you expect it is on your GitHub repository fork.
 
-Once you are done, go to `working-with-issues.md`
+Once you are done, go to `creating-issues.md`
 
