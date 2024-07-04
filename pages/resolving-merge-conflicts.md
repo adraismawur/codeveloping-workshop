@@ -21,7 +21,7 @@ Decide who is person 1 and who is person 2, then do the following:
 
 ### Person 1 tasks
 1. Open `pages/listing.txt`
-2. Replace  `# change this` with `working-with-issues.md`
+2. Replace  `# change this` with `issues-and-pull-requests.md`
 3. Commit your work
 4. Push your commit
 
@@ -29,7 +29,7 @@ Decide who is person 1 and who is person 2, then do the following:
 ### Person 2 tasks
 
 1. Open `pages/listing.txt`
-2. Replace `# change this` with `working-with-pull-requests.md`
+2. Replace `# change this` with `contributing-to-a-repository.md`
 3. Commit your work
 4. Push your commit
 
@@ -52,9 +52,9 @@ GIT has added the `>`, `<` and `=` characters. Everything in-between is done by 
 introduction.md
 resolving-merge-conflicts.md
 <<<<<<< HEAD
-working-with-pull-requests.md
+contributing-to-a-repository.md
 =======
-working-with-issues.md
+issues-and-pull-requests.md
 >>>>>>> f424d28c9d1666a84601bc23e97c5e8496543d63
 
 ```
@@ -63,7 +63,7 @@ Here we can se that there is a _current change_:
 
 ```
 <<<<<<< HEAD
-working-with-pull-requests.md
+contributing-to-a-repository.md
 =======
 ```
 
@@ -72,11 +72,13 @@ As opposed to the _incoming change_:
 
 ```
 =======
-working-with-issues.md
+issues-and-pull-requests.md
 >>>>>>> f424d28c9d1666a84601bc23e97c5e8496543d63
 ```
 
 This is the change that the person who finished first introduced and is now incoming from the repository on GitHub.
+
+Note that the content between the markers can vary depending on who finished first.
 
 ### Solving a merge conflict
 
