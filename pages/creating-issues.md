@@ -54,6 +54,7 @@ From the perspective of the user, all they know is that there is a page that loo
 <summary>Click here for a description of Issue 2</summary>
 
 This second issue is that there ought to be a page on creating pull requests, but it's missing from the listing.
+This is because the file listing has a # character at the start, and the website interprets it as a comment.
 
 From the perspective of the user, they may have been told there would be a page with this content, but they can't see it.
 Some ways they may phrase this are:
