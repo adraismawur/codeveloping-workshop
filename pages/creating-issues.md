@@ -92,6 +92,8 @@ See if you can understand the problem by looking at their description.
 
 When you feel like you understand the problem, create a new branch on your machine where you solve the problem using `git branch hotfix/issue-1` or `git branch hotfix/issue-2`.
 
+In this case, issue-1 or issue-2 should match the issue you're handling, not the one you picked at the start of the exercise.
+
 Make a commit on this branch fixing the problem, and then push this branch using `git push -u origin hotfix/issue-1` or `git push -u origin hotfix/issue-2`
 
 ##### Stuck?
