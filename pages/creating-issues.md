@@ -11,7 +11,7 @@ In this exercise, you are going to create a couple of issues as practice.
 
 Creating an issue is very simple, and is done by navigating to the issues tab on your repository and clicking the "new issue" button in the top right:
 
-[![Issues tab](/images/issues.png)](images/issues.png)
+[![Issues tab](/images/issues.png)](/images/issues.png)
 
 All repositories that allow non-contributors, maintainers or owners to create issues will have this button in this location.
 Other platforms that have an issue feature will work in a similar way.
@@ -120,4 +120,3 @@ Remember that lines starting with a # are comments and are ignored by the websit
 </details>
 
 Once you are finished, [click here](index.html?page=creating-pull-requests.md)
-

@@ -56,14 +56,17 @@ The really cool thing about this is that if you add a [closing keyword](https://
 
 Try writing `closes #1` or `closes #2` in the description depending on the GitHub issue you are addressing, then press "Create pull request".
 
-Now you have finally created the pull request, and it is time to check eachother's work.
+You will be taken to the actual pull request.
+One final thing to do here is to add people to the pull requests.
+
+This can be done in the top-right.
+Reviewers can be requested to look at the code of the pull request, and assignees can be assigned to manage it.
+
+Assign your teammate as a reviewer, and yourself as the assignee.
 
 ### Reviewing
 
-GitHub has a built-in system for reviews as well, making the entire process of codeveloping much easier.
-In the top-right of your new issue, assign your teammate as a reviewer for the pull request.
-
-They should receive an email asking them to review the changes you have made in this pull request.
+You should receive an email asking you to review the changes in a pull request.
 Once you receive this email, open the pull request and go to the "Files Changed" tab:
 
 This tab is the easiest way to see what changes have been made on this source branch compared to the target branch.
@@ -73,11 +76,11 @@ If there were changes that you disagreed with, it is possible to comment on code
 
 For now it should suffice to simply approve the pull request.
 
-[![Review changes](/images/review-changes.png)](images/review-changes.png)
+[![Review changes](/images/review-changes.png)](/images/review-changes.png)
 
 Once your pull request is approved, it can be merged into the main branch.
 
-[![Changes approved](/images/changes-approved.png)](images/changes-approved.png)
+[![Changes approved](/images/changes-approved.png)](/images/changes-approved.png)
 
 Once you are done approving and merging pull requests, note that there are no longer any open issues on your repository!
 These have automatically been closed along with your pull requests.
