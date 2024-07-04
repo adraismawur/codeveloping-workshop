@@ -28,7 +28,8 @@ function get_pages_and_render_nav() {
   let p = new Promise((resolve, reject) => {
     var x = new XMLHttpRequest();
 
-    x.open('GET', 'pages/listing.txt');
+    // add date to avoid caching
+    x.open('GET', 'pages/listing.txt' + '?' + new Date().getTime());
     x.onreadystatechange = function() {
       if (x.readyState == 4 && x.status == 200) {
         let html_parts = [];
