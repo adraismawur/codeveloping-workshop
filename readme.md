@@ -50,7 +50,9 @@ In order to get the code on your machine, you must clone this fork of the worksh
 ❗Every member of the team should clone the fork.
 
 For this you will need the repository URL.
-This URL can be found on the main page of your fork, under the green "<> Code" button.
+This URL can be found on the main page of your fork, under the green "Code" button:
+
+![Code button](images/codebutton.png)
 
 Copy the URL found under the SSH tab.
 The URL should start with `git@github.com`
