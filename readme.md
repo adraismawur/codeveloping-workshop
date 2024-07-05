@@ -24,8 +24,7 @@ All of these exercises assume the following:
 In order to do this, follow these steps:
 
 1. Click the fork button at the top-right of this website, between the "watch" and "star" buttons.
-2. Uncheck "Copy the `master` branch only"
-3. Click "Create Fork"
+2. Click "Create Fork"
 
 Once completed, you will be taken to your fork of the workshop repository.
 
@@ -42,6 +41,19 @@ We will get back to those buttons later.
 4. Find your team member and click "Add [name] to this repository"
 
 Once your team member accepts the invite, they will be allowed to push to your repository.
+
+### Enabling issues on your fork
+
+By default issues are not enabled on forks.
+This may be because issues are generally made on the original repository.
+
+For the purposes of this exercise, you need to enable the issues tab by doing the following:
+
+1. Click on the "Settings" tab at the top of the page, next to the cog icon
+2. Go to "General"
+3. Under "Features", make sure "Issues" is ticked
+
+You should see an "Issues" tab between the "Code" and "Pull requests" tabs at the top of the page
 
 ### Getting the code to your machine
 
