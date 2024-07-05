@@ -85,9 +85,11 @@ Note that the content between the markers can vary depending on who finished fir
 Work together to solve this merge conflict:
 1. Edit the file to resolve the conflict, preserving both changes to the file.
     - When you are done editing the file, there should be no more `>`, `<` or `=` characters remaning in the `pages/listing.txt` file.
-2. Once you are done, you can run `git commit` to finish this merge.
+2. Once you are done, use `git add pages/listing.txt` and  `git commit` to finish this merge.
 3. Then you should be able to again push using `git push`.
 4. Verify that the work as you expect it is on your GitHub repository fork.
+
+If you were the first to finish, you should also pull these new changes to your computer using `git pull`
 
 Once you are done, go to `creating-issues.md`
 
