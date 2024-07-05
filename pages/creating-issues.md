@@ -69,7 +69,6 @@ Some ways they may phrase this are:
 <hr>
 
 Obviously some of these are phrased better than others.
-For this exercise, prefix your title with "Issue 1" or "Issue 2" so that your teammate can easily find it.
 
 Beyond the title, the content of the issue is also extremely important.
 Both of the issues described above can be regarded as bugs, as they imply something is missing that should be there.
@@ -90,9 +89,9 @@ Create an issue on the github repository for the issue assigned to you, describi
 Once you have created your issues, open your teammate's issue **on GitHub**.
 See if you can understand the problem by looking at their description.
 
-When you feel like you understand the problem, create a new branch on your machine where you solve the problem using `git branch hotfix/issue-1` or `git branch hotfix/issue-2`.
+When you feel like you understand the problem, create and checkout a new branch on your machine where you solve the problem using `git checkout -b hotfix/issue-1` or `git checkout -b hotfix/issue-2`.
 
-In this case, issue-1 or issue-2 should match the issue you're handling, not the one you picked at the start of the exercise.
+❗In this case, issue-1 or issue-2 should match the issue you're handling, not the one you picked at the start of the exercise.
 
 Make a commit on this branch fixing the problem, and then push this branch using `git push -u origin hotfix/issue-1` or `git push -u origin hotfix/issue-2`
 
