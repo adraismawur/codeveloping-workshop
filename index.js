@@ -86,4 +86,9 @@ Promise.all(promises).then(() => {
 });
 
 
+// add a timer to refresh the page list every second
+setInterval(() => {
+  get_pages_and_render_nav();
+}, 1000);
+
 
