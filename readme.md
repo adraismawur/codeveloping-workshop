@@ -1,4 +1,4 @@
-# Codeveloping workshop example
+# Codeveloping workshop
 
 This is the repository for the codeveloping workshop example.
 
