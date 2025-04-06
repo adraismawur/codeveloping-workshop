@@ -19,10 +19,11 @@ You should not need to install anything other than python for this to work.
 After running this in a terminal, you should be able to navigate to http://localhost:8000.
 From there you can read the rest of this introduction
 
-
 ### How the website works
 
 From here on you should be reading this in a webpage, not in a text editor or something else.
+
+❗ Whenever you are done making edits, go back to this webpage to check and continue reading the instructions.
 
 This website displays markdown files (simple text files that look nice) and displays a list of those files on the left side of the screen.
 
