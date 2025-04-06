@@ -72,3 +72,5 @@ The URL should start with `git@github.com`
 Then, in a command line, navigate to where you want to copy the repository to, and run `git clone [url]`
 
 Once you have a copy of the code on your machine, take a look at the `introduction.md` file under the `pages` folder.
+
+Hi!
