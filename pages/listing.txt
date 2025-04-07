@@ -1,5 +1,6 @@
 introduction.md
 resolving-merge-conflicts.md
+on-semantic-versioning.md
 # change this
 #creating-pull-requests.md
 
