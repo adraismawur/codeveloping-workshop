@@ -3,4 +3,5 @@ resolving-merge-conflicts.md
 creating-issues.md
 contributing-to-a-repository.md
 creating-pull-requests.md
+coffeecat.md
 
