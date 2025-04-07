@@ -1,5 +1,5 @@
 introduction.md
 resolving-merge-conflicts.md
-contributing-to-a-respository.md
+creating-issues.md
 #creating-pull-requests.md
 
